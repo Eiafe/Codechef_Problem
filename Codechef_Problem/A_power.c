@@ -1,10 +1,12 @@
 #include<stdio.h>
+#include <math.h>
 int main (){
-    int x;
-    scanf("%d",&x);
-    int result =2*x;
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int result =  pow(x,y);
     printf("%d\n",result);
 
 
 }
-S
+
+
