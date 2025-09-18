@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main (){
-    int x;
-    scanf("%d",&x);
-    int result =2*x;
-    printf("%d\n",result);
-
-
-
-
+    int a;
+    scanf("%d",&a);
+    int result=a*2;
+    printf("%d",result);
 }
+
